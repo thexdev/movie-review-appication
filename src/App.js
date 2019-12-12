@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="App">
       <Suspense fallback="loading...">
-        <Header text="Movie Review" />
+        <Header text="Movie Searcher" />
         <Search search={search} />
         <p className="App-intro">Sharing a few of our favourite movies</p>
         <div className="container-fluid">
